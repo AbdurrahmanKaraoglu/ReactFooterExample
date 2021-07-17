@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  padding: 80px 60px;
-  background: radial-gradient(circle, rgba(92,39,251,1) 0%, rgba(112,71,247,1) 100%);
+  padding: 60px 60px;
+  background: radial-gradient(circle, rgba(82,108,255,1) 0%,rgba(112,145,255,1) 100%);
   @media (max-width: 1000px) {
     padding: 70px 30px;
   }
@@ -41,7 +41,7 @@ export const Link = styled.a`
   text-decoration: none;
 
   &:hover {
-      color: #ff9c00;
+      color: #000000;
       transition: 200ms ease-in;
   }
 `;
